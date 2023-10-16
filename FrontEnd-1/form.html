@@ -6,6 +6,51 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="www.google.com"></form>
+    <form action="www.google.com" method="get"></form>
+    <label for="first_name">First Name</label>
+    <input id="first_name" type="text" name="student_firstname" placeholder="VIVEK" required>
+
+    <label for="last_name">Last Name</label>
+    <input id="last_name" type="text" name="student_lastname" placeholder="KUMAR" required>
+    <br><br>
+
+    <label for="roll_number">Roll No.</label>
+    <input id="roll_number" type="number" placeholder="Only numerical value">
+    <br><br>
+
+    <input type="date"><br><br>
+    <input type="datetime"><br><br>
+    <input type="datetime-local"><br><br>
+    <label for="month">Month</label>
+    <input id="month" type="month"><br><br>
+    <label for="time">Time</label>
+    <input id="time" type="time"><br><br>
+
+    <label for="email">Email</label>
+    <input id="email" type="email" placeholder="abc@gmail.com">
+
+
+    <label for="color">Color</label>
+    <input id="color" type="color">
+    <label for="range">Range</label>
+    <input id="range" type="range">
+    <label for="url">URL</label>
+    <input id="url" type="url">
+    <label for="file">File</label>
+    <input id="file" type="file">
+    <br><br>
+    <label for="password">Password</label>
+    <input id="password" type="password">
+    <br><br>
+    <!-- "tel" is used to take input of phone no. but 
+    it does not restrict user to enter only numeric values
+    user can enter other characters also -->
+    <label for="tel">Tel. No.</label>
+    <input id="tel" type="tel">
+
+    <!-- to get week number with year -->
+    <label for="week">Week</label>
+    <input id="week" type="week">
+
 </body>
 </html>
