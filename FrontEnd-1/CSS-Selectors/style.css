@@ -4,20 +4,35 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* type selector/tag selector */
 p{
     color: orangered;
     background-color: aqua;
 }
-/* h1{
+h1{
     color: white;
     background-color: black;
-} */
+}
+
+
 
 /* id selector */
 #one{
     color: aqua;
+    background-color: rebeccapurple;
 }
 #two{
     color: orange;
 }
+
+
+/* class selector */
+.class1{
+    background-color: blueviolet;
+}
+.class1-2{
+    color: blue;
+    background-color: aqua;
+}
+
