@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#eg1{
+    /* color property sets the color of the text  */
+    color: aqua;
+    /* 
+    Multiple ways to provide color
+    1. Named color (147 named colors) imp
+    2. rgb (red-green-blue)
+    3. rgba (red-green-blue-alpha) alpha stands for opecity
+    4. hsl(hue, saturation, lightness)
+    5. hexcode imp
+    */
+
+    text-align: justify;
+}
