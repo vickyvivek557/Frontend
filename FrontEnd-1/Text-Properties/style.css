@@ -13,4 +13,87 @@
     */
 
     text-align: justify;
+    text-transform:uppercase;
+    line-height: 50%;
+}
+
+#eg2{
+    color:blue;
+    text-decoration:red line-through;
+}
+
+#eg3{
+    text-decoration: none;
+    color: brown;
+}
+
+#eg4{
+    color: white;
+    text-shadow: 0px 0px 20px rgb(224, 17, 17);
+}
+
+#eg5{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* 
+    famous fonts in 2023:
+    1. Inter
+    2. Poppins
+    */
+    font-style: italic;
+
+    /* font weight range from 100 to 900 (400 ~ normal) */
+    font-weight: 400; 
+}
+
+#eg7{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#eg6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    /* border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: pink; */
+
+    border-left: 10px solid pink;
+    border-right: 10px solid pink;
+    border-top: 10px solid pink;
+    /* it is a shorthand way of providing border */
+}
+
+#eg8{
+    border-style: none;
+}
+
+#eg9{
+    width: 50%;
+    /* 
+    1. Absolute (mm, cm, px)
+    2. Relative (%, viewport)
+     */
+    background-color: blue;
+}
+
+#eg10{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+}
+
+#eg11{
+    width: 50%;
+    background-color: yellow;
+}
+
+#eg12{
+    background-color: pink;
+    width: 50vw;
+}
+
+#eg13{
+    background-color: black;
+    width: 50vw;
+    height: 50vh;
 }
